@@ -1,0 +1,14 @@
+ctor  Борщ (українська, 120min, 4 serv)  live=1
+--- початок main ---
+ctor  Паста (італійська, 25min, 2 serv)  live=2
+ctor  Суші (японська, 60min, 3 serv)  live=3
+dtor  Суші  live=2
+ctor  Забутий рецепт (французька, 45min, 2 serv)  live=3
+ctor  Керований (іспанська, 30min, 4 serv)  live=4
+ctor  Млинці (українська, 20min, 6 serv)  live=5
+--- кінець main ---
+dtor  Млинці  live=4
+dtor  Керований  live=3
+dtor  Забутий рецепт  live=2
+dtor  Паста  live=1
+dtor  Борщ  live=0

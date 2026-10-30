@@ -1,0 +1,14 @@
+ctor  Статичний  live=1
+--- початок main ---
+ctor  Автоматичний  live=2
+ctor  Вкладений  live=3
+dtor  Вкладений  live=2
+ctor  Забутий  live=3
+ctor  Керований  live=4
+ctor  У векторі  live=5
+--- кінець main ---
+dtor  У векторі  live=4
+dtor  Керований  live=3
+dtor  Забутий  live=2
+dtor  Автоматичний  live=1
+dtor  Статичний  live=0

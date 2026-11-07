@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (clang++)",
+            "type": "lldb", // или "cppdbg", если VS Code настойчиво требует
+            "request": "launch",
+            "program": "${workspaceFolder}/build/my_program",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "C/C++: clang++ сборка проекта"
+        }
+    ]
+}

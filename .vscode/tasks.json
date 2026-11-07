@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang++ сборка проекта",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "-O0",
+                "-fno-omit-frame-pointer",
+                "-Wall",
+                "-Wextra",
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/recipe.cpp",
+                "-I", "${workspaceFolder}/src",
+                "-o", "${workspaceFolder}/build/my_program"
+            ],
+            "options": { "cwd": "${workspaceFolder}" },
+            "problemMatcher": ["$gcc"],
+            "group": { "kind": "build", "isDefault": true }
+        }
+    ]
+}

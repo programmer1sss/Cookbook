@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Debug (clang++)",
-            "type": "lldb", // или "cppdbg", если VS Code настойчиво требует
+            "type": "lldb", 
             "request": "launch",
             "program": "${workspaceFolder}/build/my_program",
             "args": [],
